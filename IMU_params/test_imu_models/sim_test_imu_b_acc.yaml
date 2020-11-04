@@ -1,0 +1,26 @@
+--- 
+Accelerometer:
+     MeasurementRange: 160
+     Resolution: 0 #0.0049
+     ConstantBias: [0, 0, 0]
+     AxesMisalignment: 0
+     NoiseDensity:  [0,0,0] #[1.119e-3,1.119e-3,1.119e-3]
+     BiasInstability: [0,0,0] # 4e-4
+     RandomWalk: [1.67e-4,1.67e-4,1.67e-4] # [0,0,0]  # #
+     TemperatureBias: 0
+     TemperatureScaleFactor: 0
+     tau: [0,0,0]
+     b_on: [0,0,0] #[0.01,0.01,0.01]
+
+Gyroscope:
+     MeasurementRange: 34.9066
+     Resolution: 0 #0.0011
+     ConstantBias: [0, 0, 0]
+     AxesMisalignment: 0
+     NoiseDensity: [0,0,0] #[4.8e-05,4.8e-05,4.8e-05]
+     BiasInstability: [0,0,0] # [4.8481e-05,4.8481e-05,4.8481e-05]
+     RandomWalk: [0,0,0] # [3e-6, 3e-6, 3e-6] 
+     TemperatureBias: 0
+     TemperatureScaleFactor: 0
+     tau: [0,0,0]
+     b_on: [0,0,0]

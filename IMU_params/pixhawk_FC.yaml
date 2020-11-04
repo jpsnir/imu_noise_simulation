@@ -1,0 +1,24 @@
+--- 
+vn100:
+ Accelerometer:
+     MeasurementRange:
+     Resolution:
+     ConstantBias:
+     NoiseDensity:
+     BiasInstability:
+     RandomWalk:
+     TemperatureBias:
+     TemperatureScaleFactor:
+
+ Gyroscope:
+     MeasurementRange:
+     Resolution:
+     ConstantBias:
+     NoiseDensity:
+     BiasInstability:
+     RandomWalk:
+     TemperatureBias:
+     TemperatureScaleFactor:
+    
+    
+

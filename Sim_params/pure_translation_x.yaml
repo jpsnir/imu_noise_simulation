@@ -1,0 +1,36 @@
+---
+# Global frame
+T_w:
+- [1.0, 0.0, 0.0, 0.0]
+- [0.0, 1.0, 0.0, 0.0]
+- [0.0, 0.0, 1.0, 0.0]
+- [0.0, 0.0, 0.0, 1.0]
+
+# Trajectory definition with two style
+Trajectory:
+     Waypoints: # in m
+     - [0,0,0]
+     - [1,0,0]
+     - [2,0,0]
+     - [3,0,0]
+     - [4,0,0]
+
+     Viapoints: # in m
+     - [0,0,0,0,0,0]
+     - [1,0,0,0,0,0]
+     - [2,0,0,0,0,0]
+     - [3,0,0,0,0,0]
+     - [4,0,0,0,0,0]
+     
+     #time spent in each segment
+     toa: [0,1,2,3,4] # in s
+ 
+# Initial condition for IMU dead reckoning
+Initial_Condition:   
+     p_w_0: [0,0,0] # position in world frame in m 
+     v_w_0: [0,0,0] # velocity in world frame in m
+     eul_w_0: [0,0,pi] # z,y,x - orientation in world frame (degrees)
+  
+ 
+  
+ 

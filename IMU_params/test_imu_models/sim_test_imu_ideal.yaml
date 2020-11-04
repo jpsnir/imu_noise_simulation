@@ -1,0 +1,24 @@
+--- 
+Accelerometer:
+     MeasurementRange: 160
+     Resolution: 0.0049
+     ConstantBias: 0
+     AxesMisalignment: 0
+     NoiseDensity: 0
+     BiasInstability: 0 # 4e-4
+     RandomWalk: 0 #1.67e-4
+     TemperatureBias: 0
+     TemperatureScaleFactor: 0
+     tau: 0
+
+Gyroscope:
+     MeasurementRange: 34.9066
+     Resolution: 0.0011
+     ConstantBias: 0
+     AxesMisalignment: 0
+     NoiseDensity: 0
+     BiasInstability: 0 # 4.8481e-05
+     RandomWalk: 0 #3e-6 
+     TemperatureBias: 0
+     TemperatureScaleFactor: 0
+     tau: 0
