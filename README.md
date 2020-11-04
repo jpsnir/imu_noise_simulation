@@ -1,5 +1,5 @@
 # imu_noise_simulation
-Simulates an IMU noise models for a stationary IMU.
+Simulates an IMU noise model for a stationary IMU and generates AD curves for comparison.
 This repository stores the code 
 
 To get the theoretical AD curves, run the following on your matlab command line 
